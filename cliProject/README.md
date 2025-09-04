@@ -1,6 +1,6 @@
 ````markdown
 # 📝 MyToDoList (CLI)
-
+Lien du projet source : https://roadmap.sh/projects/task-tracker
 Un gestionnaire de tâches simple en **ligne de commande** écrit en Python.  
 Permet d'**ajouter, mettre à jour, supprimer et lister** vos tâches avec persistance en JSON.
 
@@ -10,14 +10,14 @@ Permet d'**ajouter, mettre à jour, supprimer et lister** vos tâches avec persi
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/Gafclerck/pyhtonProjects.git
-   cd PyhtonProjects/cliProject
+   git clone https://github.com/Gafclerck/pyhtonProjects/tree/main/cliProject
+   cd cliProject
 ````
 
 2. Exécuter le programme avec Python (≥ 3.10 recommandé) :
 
    ```bash
-   python todolist.py.py --help
+   python todolist.py --help
    ```
 
 ---
@@ -74,10 +74,18 @@ Les tâches sont stockées dans un fichier `todolist.json` au format suivant :
 
 ---
 
+## 🔮 Améliorations futures
+
+* Ajout d’une option `--export` pour exporter les tâches en CSV/Markdown.
+* Support de couleurs dans la sortie CLI.
+* Passage à `uuid` pour les ID au lieu de `timestamp`.
+
+---
+
 ## 👨‍💻 Auteur
 
 Développé par **Amadou Abdoul-Gafar**
 Étudiant en Informatique – Génie logiciel, réseaux & systèmes
 
 ```
-
+```
